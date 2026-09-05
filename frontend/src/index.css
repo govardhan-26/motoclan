@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Rajdhani:wght@600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Base ──────────────────────────────────────────────────────────────────── */
+@layer base {
+  * { box-sizing: border-box; }
+  html { @apply scroll-smooth; }
+  body {
+    @apply bg-dark-bg text-white;
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  :focus-visible { @apply outline-2 outline-offset-2 outline-accent rounded; }
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { @apply bg-dark-surface; }
+  ::-webkit-scrollbar-thumb { @apply bg-dark-border rounded-full; }
+}
+
+/* ─── Component utilities ────────────────────────────────────────────────────── */
+@layer components {
+  .btn-primary {
+    @apply bg-accent hover:bg-accent-hover text-white font-semibold px-4 py-2 rounded-xl
+           transition-all duration-150 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-secondary {
+    @apply bg-dark-card hover:bg-dark-hover text-white font-semibold px-4 py-2
+           rounded-xl border border-dark-border transition-all duration-150 active:scale-95;
+  }
+  .input-base {
+    @apply w-full bg-dark-card border border-dark-border text-white placeholder-gray-500
+           rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:border-accent transition-colors;
+  }
+  .card {
+    @apply bg-dark-card border border-dark-border rounded-2xl;
+  }
+  .surface { @apply bg-dark-surface; }
+  .divider { @apply border-dark-border; }
+}
+
+/* ══════════════════════════════════════════════════════════════════════════════
+   LIGHT MODE — every dark background, border and text colour overridden here.
+   Uses body.light (class toggled by ThemeContext) + !important to guarantee
+   these rules always win over Tailwind's generated utilities.
+   ══════════════════════════════════════════════════════════════════════════════ */
+
+/* Body */
+body.light {
+  background-color: #F8F8F8 !important;
+  color: #111827 !important;
+}
+
+/* Backgrounds */
+body.light .bg-dark-bg      { background-color: #F8F8F8 !important; }
+body.light .bg-dark-surface { background-color: #FFFFFF !important; }
+body.light .bg-dark-card    { background-color: #FFFFFF !important; }
+body.light .bg-dark-hover   { background-color: #F0F0F0 !important; }
+
+/* Hover backgrounds */
+body.light .hover\:bg-dark-hover:hover { background-color: #F0F0F0 !important; }
+body.light .hover\:bg-dark-card:hover  { background-color: #FFFFFF !important; }
+
+/* Borders */
+body.light .border-dark-border  { border-color: #E4E4E7 !important; }
+body.light .divide-dark-border  > * + * { border-color: #E4E4E7 !important; }
+
+/* Text */
+body.light .text-white          { color: #111827 !important; }
+body.light .text-gray-300       { color: #374151 !important; }
+body.light .text-gray-400       { color: #4B5563 !important; }
+body.light .text-gray-500       { color: #6B7280 !important; }
+body.light .text-gray-600       { color: #9CA3AF !important; }
+body.light .placeholder-gray-500::placeholder { color: #9CA3AF !important; }
+body.light .placeholder-gray-400::placeholder { color: #9CA3AF !important; }
+
+/* Hover text */
+body.light .hover\:text-white:hover      { color: #111827 !important; }
+body.light .hover\:text-gray-300:hover   { color: #374151 !important; }
+
+/* Component utilities in light mode */
+body.light .btn-secondary {
+  background-color: #FFFFFF !important;
+  color: #111827 !important;
+  border-color: #E4E4E7 !important;
+}
+body.light .btn-secondary:hover { background-color: #F0F0F0 !important; }
+
+body.light .input-base {
+  background-color: #FFFFFF !important;
+  border-color: #E4E4E7 !important;
+  color: #111827 !important;
+}
+
+body.light .card {
+  background-color: #FFFFFF !important;
+  border-color: #E4E4E7 !important;
+}
+
+body.light .surface { background-color: #FFFFFF !important; }
+body.light .divider { border-color: #E4E4E7 !important; }
+
+/* Scrollbar */
+body.light ::-webkit-scrollbar-track { background: #F8F8F8; }
+body.light ::-webkit-scrollbar-thumb { background: #E4E4E7; }

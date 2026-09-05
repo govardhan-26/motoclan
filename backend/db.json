@@ -1,0 +1,1446 @@
+{
+  "users": [
+    {
+      "id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "email": "rajesh@motoclan.in",
+      "phone_number": "+919876543210",
+      "password_hash": "$2a$10$CVHXFG932z.wLLgG4C/zouALMzhEtcrgVWNEx8xPfAfmbLtoh2Vqq",
+      "username": "rajesh_rider",
+      "full_name": "Rajesh Kumar",
+      "bio": "Born to ride. Royal Enfield loyalist. Mumbai roads and Ladakh dreams.",
+      "location": "Mumbai, Maharashtra",
+      "profile_image_url": null,
+      "motorcycle_details": "Royal Enfield Classic 350 2022",
+      "riding_experience_years": 6,
+      "created_at": "2026-08-09T13:21:45.519Z"
+    },
+    {
+      "id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "email": "priya@motoclan.in",
+      "phone_number": "+919765432101",
+      "password_hash": "$2a$10$CVHXFG932z.wLLgG4C/zouALMzhEtcrgVWNEx8xPfAfmbLtoh2Vqq",
+      "username": "priya_throttle",
+      "full_name": "Priya Sharma",
+      "bio": "Solo rider, coffee lover, Coorg enthusiast. KTM Duke 390 owner.",
+      "location": "Bangalore, Karnataka",
+      "profile_image_url": null,
+      "motorcycle_details": "KTM Duke 390 2023",
+      "riding_experience_years": 3,
+      "created_at": "2026-08-10T09:21:45.523Z"
+    },
+    {
+      "id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "email": "vikram@motoclan.in",
+      "phone_number": "+919654321012",
+      "password_hash": "$2a$10$CVHXFG932z.wLLgG4C/zouALMzhEtcrgVWNEx8xPfAfmbLtoh2Vqq",
+      "username": "vikram_wolf",
+      "full_name": "Vikram Singh",
+      "bio": "Adventure tourer. Himalayan veteran. 10 years on two wheels across India.",
+      "location": "Delhi, NCR",
+      "profile_image_url": null,
+      "motorcycle_details": "Royal Enfield Himalayan 411 2023",
+      "riding_experience_years": 10,
+      "created_at": "2026-08-11T05:21:45.523Z"
+    },
+    {
+      "id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "email": "ananya@motoclan.in",
+      "phone_number": "+919543210123",
+      "password_hash": "$2a$10$CVHXFG932z.wLLgG4C/zouALMzhEtcrgVWNEx8xPfAfmbLtoh2Vqq",
+      "username": "ananya_rides",
+      "full_name": "Ananya Reddy",
+      "bio": "Weekend warrior from Hyderabad. Honda CB300R. Discovering hidden India one road at a time.",
+      "location": "Hyderabad, Telangana",
+      "profile_image_url": null,
+      "motorcycle_details": "Honda CB300R 2022",
+      "riding_experience_years": 2,
+      "created_at": "2026-08-12T01:21:45.523Z"
+    },
+    {
+      "id": "f15957eb-c18f-4224-99bf-104670115962",
+      "email": "arjun@motoclan.in",
+      "phone_number": "+919432101234",
+      "password_hash": "$2a$10$CVHXFG932z.wLLgG4C/zouALMzhEtcrgVWNEx8xPfAfmbLtoh2Vqq",
+      "username": "arjun_moto",
+      "full_name": "Arjun Mehta",
+      "bio": "Pune-based biker. Dominar 400 rider. Group ride organiser. Chai stops mandatory.",
+      "location": "Pune, Maharashtra",
+      "profile_image_url": null,
+      "motorcycle_details": "Bajaj Dominar 400 2023",
+      "riding_experience_years": 5,
+      "created_at": "2026-08-12T21:21:45.523Z"
+    },
+    {
+      "id": "18cf3f15-4373-48bc-a750-2b18429ca389",
+      "email": "vihaan@gmail.com",
+      "phone_number": "+919218367540",
+      "password_hash": "$2a$10$ZAgE.WB1snl4ifuZiW0cfuA489wzuVIvQ5QFOYiyxiv6ilgrgPBFG",
+      "username": "sher_locked",
+      "full_name": "Vihaan",
+      "bio": "I am Ironman",
+      "location": "Hyderabad",
+      "profile_image_url": null,
+      "motorcycle_details": "Honda CB350 Hness",
+      "riding_experience_years": 2,
+      "created_at": "2026-08-30T10:09:47.503Z"
+    }
+  ],
+  "refresh_tokens": [
+    {
+      "id": "4cb40bfc-1617-4b5d-af1a-6fcc2c24cdf3",
+      "user_id": "18cf3f15-4373-48bc-a750-2b18429ca389",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxOGNmM2YxNS00MzczLTQ4YmMtYTc1MC0yYjE4NDI5Y2EzODkiLCJpYXQiOjE3ODgwODQ1ODcsImV4cCI6MTc5MDY3NjU4N30.f3HOq93tg_lO89wDiRGxii7qbv7WCq9NgYsQmG5DLII",
+      "created_at": "2026-08-30T10:09:47.628Z"
+    },
+    {
+      "id": "eccacda9-d584-4b73-b87c-c6aed0f282c3",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyYWRiYWQ4ZC1iYjAyLTQ4MzctYWM3Yi0zMmFjNzhlOWFkZTQiLCJpYXQiOjE3ODg1MjMzMzcsImV4cCI6MTc5MTExNTMzN30.JJY-nVXMpSIK-tUt_52BfDyAEXwc65BpRdGJM5H74Uk",
+      "created_at": "2026-09-04T12:02:17.952Z"
+    },
+    {
+      "id": "a999cb38-4bbc-4009-95af-356fab0344ba",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmMTU5NTdlYi1jMThmLTQyMjQtOTliZi0xMDQ2NzAxMTU5NjIiLCJpYXQiOjE3ODg1MjUzNjQsImV4cCI6MTc5MTExNzM2NH0.k6IPpBDgw2q5H77T-1mcscgH1JU44ITSd5LbbMzO6tA",
+      "created_at": "2026-09-04T12:36:04.731Z"
+    },
+    {
+      "id": "a20d1381-8976-4b01-9859-62a39bfddfef",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmMTU5NTdlYi1jMThmLTQyMjQtOTliZi0xMDQ2NzAxMTU5NjIiLCJpYXQiOjE3ODg1MzY5MjYsImV4cCI6MTc5MTEyODkyNn0.em8QpCmDQ55Sc2rD4_GRPzYBkKh8aAvOwrDwJCLakac",
+      "created_at": "2026-09-04T15:48:46.363Z"
+    },
+    {
+      "id": "3cf583df-db01-4145-a837-0ee77e462b2c",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyYWRiYWQ4ZC1iYjAyLTQ4MzctYWM3Yi0zMmFjNzhlOWFkZTQiLCJpYXQiOjE3ODg1MzY5NDQsImV4cCI6MTc5MTEyODk0NH0.edXQ5PYMbgPbE0NgdehuujBUrU2CzVmbro_0GcdVwbM",
+      "created_at": "2026-09-04T15:49:04.211Z"
+    },
+    {
+      "id": "fc52d42b-93a2-40a6-aa39-95bdd9c50946",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyYWRiYWQ4ZC1iYjAyLTQ4MzctYWM3Yi0zMmFjNzhlOWFkZTQiLCJpYXQiOjE3ODg1NDYxODAsImV4cCI6MTc5MTEzODE4MH0.o1jW2uqsS7EdzRQE53eqeDcfRxpmN8PfbcreqqArBRM",
+      "created_at": "2026-09-04T18:23:00.384Z"
+    },
+    {
+      "id": "0890174d-224f-42b4-b7f0-218ead2aaeac",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmMTU5NTdlYi1jMThmLTQyMjQtOTliZi0xMDQ2NzAxMTU5NjIiLCJpYXQiOjE3ODg1NDYxOTksImV4cCI6MTc5MTEzODE5OX0.w70qin4zMvUHTmHFJ_Z6EqLKAdGwvFzwFtUhglrcPrg",
+      "created_at": "2026-09-04T18:23:19.653Z"
+    },
+    {
+      "id": "047c98ae-edb1-46bf-a15a-fb350966e384",
+      "user_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI2ZDFjNjA0ZC01M2FlLTQ4OWUtYWIwZC03MmJlYmY0MDU2OTciLCJpYXQiOjE3ODg1NDY0MjQsImV4cCI6MTc5MTEzODQyNH0.j31EADje30QNmPNuwiaYvz1mfNxlcs0zzOxInygUDRk",
+      "created_at": "2026-09-04T18:27:04.654Z"
+    },
+    {
+      "id": "982851e3-9d94-4825-a6d0-9237b9a71cfb",
+      "user_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmZmFhMDc0YS0xZTJmLTQ2ZGItOTBhMS01NWZkNTM3NTRlZjIiLCJpYXQiOjE3ODg1NDY0MzQsImV4cCI6MTc5MTEzODQzNH0.uZtJwVWbx1fqiC4qsHCKIRPBmBUZEC08ixe-1moVoQE",
+      "created_at": "2026-09-04T18:27:14.577Z"
+    },
+    {
+      "id": "0de526fa-3997-48f1-8d96-3e10533a6204",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyYWRiYWQ4ZC1iYjAyLTQ4MzctYWM3Yi0zMmFjNzhlOWFkZTQiLCJpYXQiOjE3ODg1NDY0MzYsImV4cCI6MTc5MTEzODQzNn0.uHHql5PbcU_2snf6webjrBssEgROyPfQGywKH1n9YB4",
+      "created_at": "2026-09-04T18:27:16.548Z"
+    },
+    {
+      "id": "756f8570-5546-4b10-be8f-1d2a5767ad7e",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJmMTU5NTdlYi1jMThmLTQyMjQtOTliZi0xMDQ2NzAxMTU5NjIiLCJpYXQiOjE3ODg1NTM5NTYsImV4cCI6MTc5MTE0NTk1Nn0.hO32hkpUTXlA4q0dh1jVgWkO4jbTWZ7RoukUjcxFjHM",
+      "created_at": "2026-09-04T20:32:36.595Z"
+    },
+    {
+      "id": "6f5fcb16-167f-4e2c-acff-030dedc580b3",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyYWRiYWQ4ZC1iYjAyLTQ4MzctYWM3Yi0zMmFjNzhlOWFkZTQiLCJpYXQiOjE3ODg1NTM5ODUsImV4cCI6MTc5MTE0NTk4NX0.PTVlLB-WngaRcF48wvimcHDCvZJSc2J-w_Jjsna-BJ8",
+      "created_at": "2026-09-04T20:33:05.806Z"
+    },
+    {
+      "id": "1cc65cd2-bbeb-498d-b2d4-eb7d45fe3239",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIyYWRiYWQ4ZC1iYjAyLTQ4MzctYWM3Yi0zMmFjNzhlOWFkZTQiLCJpYXQiOjE3ODg1NTkxNjcsImV4cCI6MTc5MTE1MTE2N30.S_byjgmTKLw6MyHI_PXEXbd0SF3OMtgEdy-Gd5VNk9w",
+      "created_at": "2026-09-04T21:59:27.484Z"
+    }
+  ],
+  "posts": [
+    {
+      "id": "c5f7219a-e5d8-46cd-9149-9507a8305a6f",
+      "author_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "content": "Just completed the Pune to Goa coastal highway run on the Classic 350! NH66 is absolutely stunning — coconut groves, backwaters, and the sea breeze the whole way. Took the Murud-Janjira detour and it was totally worth the extra 40 km. Total distance: 620 km in 11 hours. Legs are tired but the soul is full. Who wants to plan a group ride on this route next?",
+      "media_urls": [],
+      "created_at": "2026-08-28T09:21:45.523Z"
+    },
+    {
+      "id": "67825c2d-3dd4-43be-a1b4-e7f55db106b7",
+      "author_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "content": "First solo ride to Coorg done! The misty roads through coffee plantations on the KTM Duke 390 were absolutely magical. Started from Bangalore at 5 AM, hit the ghats by 8, and was sipping fresh filter coffee at a homestay by 10. Girls, if you're thinking about solo riding — just go. The roads are yours too.",
+      "media_urls": [],
+      "created_at": "2026-08-28T10:21:45.523Z"
+    },
+    {
+      "id": "16739b86-95b7-4fa3-b03f-44513cafe725",
+      "author_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "content": "Manali to Leh — day 3 update! Crossed Rohtang Pass at 13,050 ft this morning. The snow walls on either side were 15 feet tall — absolutely humbling on the Himalayan. Road conditions from Gramphu to Keylong are tricky right now, some fresh landslide debris. Acclimatisation is key. Don't rush altitude. Camping tonight at Jispa. Stars like you've never seen.",
+      "media_urls": [],
+      "created_at": "2026-08-28T11:21:45.523Z"
+    },
+    {
+      "id": "9cb19edc-5e7c-453f-b3ce-2b3b1f05b8ba",
+      "author_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "content": "Hyderabad to Hampi weekend trip on the CB300R and I'm obsessed! Left at 4 AM on Saturday, NH44 to Kurnool then cut across to Hospet. The roads through Tungabhadra dam area are gorgeous. Hampi itself is surreal — ancient ruins, giant boulders, the Virupaksha temple in the golden hour. Budget tip: stay at guesthouses near Hampi Bazaar, costs ₹600-800/night.",
+      "media_urls": [],
+      "created_at": "2026-08-28T12:21:45.523Z"
+    },
+    {
+      "id": "843910bd-a484-4c5b-b773-fa666b2c73db",
+      "author_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "content": "Morning chai stop at a dhaba on NH48 near Khopoli, Maharashtra. There's something sacred about this ritual — the smell of cutting chai, truck drivers sharing routes, local news on a fuzzy TV, misty hills in the background. No 5-star breakfast can match this. ₹10 chai, priceless experience. This is what biking in India is really about.",
+      "media_urls": [],
+      "created_at": "2026-08-28T13:21:45.523Z"
+    },
+    {
+      "id": "4b18144c-0298-4358-9b3a-0c5bc538e900",
+      "author_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "content": "Royal Enfield Owners Meet at Bandra this Sunday, 7 AM sharp at Carter Road! All RE riders welcome — Classic, Meteor, Himalayan, Hunter, Thunderbird, Bullet gang, everyone. We'll ride convoy to Alibaug via Mandwa ferry. Slots filling fast — DM me to register. First time? No worries, experienced riders will guide. Let's show Mumbai what a proper biking community looks like.",
+      "media_urls": [],
+      "created_at": "2026-08-28T14:21:45.523Z"
+    },
+    {
+      "id": "51e5271b-7454-4316-be58-eda538eec40e",
+      "author_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "content": "Spiti Valley — the roads are finally open for the season! Just got confirmation from locals. Kunzum Pass (15,059 ft) cleared last week. The Kaza circuit is waiting. My itinerary from Shimla: Shimla → Narkanda → Sangla Valley → Kalpa → Nako → Tabo → Kaza → Losar → Kunzum → Manali. 12 days, around 900 km. DM for the detailed route breakdown.",
+      "media_urls": [],
+      "created_at": "2026-08-28T15:21:45.523Z"
+    },
+    {
+      "id": "f3a71f18-6e25-48bd-a117-c4ac40af614d",
+      "author_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "content": "KTM Duke 390 first service done at 3000 km! KTM service centre on Hosur Road, Bangalore — impressed with the team. They actually explained every step, didn't oversell anything. Engine sounds smoother, throttle response feels crisper. Cost: ₹3,200 including oil change and general checkup. For anyone new to the Duke 390 — first service at 1000 km, then every 5000 km. Keep those chains lubed!",
+      "media_urls": [],
+      "created_at": "2026-08-28T16:21:45.523Z"
+    },
+    {
+      "id": "7f969bef-3da6-4418-94f0-ad29cac4f6a4",
+      "author_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "content": "Caught in the monsoon near Lonavala on the way back from Pune and honestly? Best ride ever. The CB300R handled the wet roads beautifully. Found shelter at a small restaurant, had vada pav and hot bhaji with 6 other bikers all waiting out the rain. Made friends, shared routes, exchanged numbers. This is the Moto Clan spirit.",
+      "media_urls": [],
+      "created_at": "2026-08-28T17:21:45.523Z"
+    },
+    {
+      "id": "ad8cc60e-985f-45fc-b045-837b20343b9d",
+      "author_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "content": "Planning the Ladakh expedition for September and looking for 3-4 riders to join! Route: Pune → Delhi (train with bikes) → Manali → Leh → Pangong Tso → Nubra Valley → Khardung La → back via Srinagar. 18 days total. Budget approx ₹45,000-55,000 per person including fuel, accommodation, permits, and food. Must have min 3 years riding experience. Drop a comment if interested!",
+      "media_urls": [],
+      "created_at": "2026-08-28T18:21:45.523Z"
+    },
+    {
+      "id": "a26f8891-41ea-4bf8-b893-4bb9b5e27d25",
+      "author_id": "18cf3f15-4373-48bc-a750-2b18429ca389",
+      "content": "I took ride to the FNF Go karting Arena. The Road was A class, but the Dust was F tier. Good experience went wrong. Still loved the ride though.",
+      "media_urls": [],
+      "created_at": "2026-08-30T10:12:05.773Z"
+    }
+  ],
+  "post_likes": [
+    {
+      "id": "88ceede9-abdd-4937-b1d6-e0c0aa0ddb3a",
+      "post_id": "c5f7219a-e5d8-46cd-9149-9507a8305a6f",
+      "user_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "created_at": "2026-08-28T10:21:45.524Z"
+    },
+    {
+      "id": "e6cd9100-461f-4414-8825-1a5a5a231447",
+      "post_id": "c5f7219a-e5d8-46cd-9149-9507a8305a6f",
+      "user_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "created_at": "2026-08-28T11:21:45.524Z"
+    },
+    {
+      "id": "7927f7ca-e424-4fed-b9e2-c00785ca86a4",
+      "post_id": "c5f7219a-e5d8-46cd-9149-9507a8305a6f",
+      "user_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "created_at": "2026-08-28T11:21:45.524Z"
+    },
+    {
+      "id": "022bdd40-e547-4d60-a92a-810dd5dd607d",
+      "post_id": "c5f7219a-e5d8-46cd-9149-9507a8305a6f",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "created_at": "2026-08-28T12:21:45.524Z"
+    },
+    {
+      "id": "fce8a685-3e59-43b9-9dec-bed40d4d5863",
+      "post_id": "67825c2d-3dd4-43be-a1b4-e7f55db106b7",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "created_at": "2026-08-28T11:21:45.524Z"
+    },
+    {
+      "id": "81dd305f-59c7-4079-911c-d3cc37c798a7",
+      "post_id": "67825c2d-3dd4-43be-a1b4-e7f55db106b7",
+      "user_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "created_at": "2026-08-28T12:21:45.524Z"
+    },
+    {
+      "id": "3f59a1b0-88b4-4bbc-b116-cf8fc4190e36",
+      "post_id": "67825c2d-3dd4-43be-a1b4-e7f55db106b7",
+      "user_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "created_at": "2026-08-28T13:21:45.524Z"
+    },
+    {
+      "id": "fd6d3eaa-a6c0-4093-b5df-c755233086e5",
+      "post_id": "16739b86-95b7-4fa3-b03f-44513cafe725",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "created_at": "2026-08-28T12:21:45.524Z"
+    },
+    {
+      "id": "fb6155cf-f08a-4902-868e-1cef3d77fd2d",
+      "post_id": "16739b86-95b7-4fa3-b03f-44513cafe725",
+      "user_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "created_at": "2026-08-28T13:21:45.524Z"
+    },
+    {
+      "id": "5fd9ca34-f1eb-4b3c-b868-e717dab2e337",
+      "post_id": "16739b86-95b7-4fa3-b03f-44513cafe725",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "created_at": "2026-08-28T14:21:45.524Z"
+    },
+    {
+      "id": "428ee78d-6d32-44a7-9f97-e34616fe1e02",
+      "post_id": "9cb19edc-5e7c-453f-b3ce-2b3b1f05b8ba",
+      "user_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "created_at": "2026-08-28T13:21:45.524Z"
+    },
+    {
+      "id": "ca98c1ee-893e-4f4c-a9f1-0e5ea51a8cf2",
+      "post_id": "9cb19edc-5e7c-453f-b3ce-2b3b1f05b8ba",
+      "user_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "created_at": "2026-08-28T14:21:45.524Z"
+    },
+    {
+      "id": "964974c7-c0e1-49af-9c3b-f8683433f321",
+      "post_id": "9cb19edc-5e7c-453f-b3ce-2b3b1f05b8ba",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "created_at": "2026-08-28T15:21:45.524Z"
+    },
+    {
+      "id": "16de8bd4-9ce8-4761-a11d-e1d7a6868167",
+      "post_id": "843910bd-a484-4c5b-b773-fa666b2c73db",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "created_at": "2026-08-28T14:21:45.525Z"
+    },
+    {
+      "id": "e31907aa-3896-4901-b98d-a7b5543d85ab",
+      "post_id": "843910bd-a484-4c5b-b773-fa666b2c73db",
+      "user_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "created_at": "2026-08-28T15:21:45.525Z"
+    },
+    {
+      "id": "8e465952-6152-4fee-9a4d-b44165fcd8cd",
+      "post_id": "843910bd-a484-4c5b-b773-fa666b2c73db",
+      "user_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "created_at": "2026-08-28T15:21:45.525Z"
+    },
+    {
+      "id": "cab90b9c-3e2a-4014-b9dc-c622b54b1625",
+      "post_id": "843910bd-a484-4c5b-b773-fa666b2c73db",
+      "user_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "created_at": "2026-08-28T16:21:45.525Z"
+    },
+    {
+      "id": "39bbc94c-b488-4d5f-a8c6-8fadd6e207ef",
+      "post_id": "4b18144c-0298-4358-9b3a-0c5bc538e900",
+      "user_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "created_at": "2026-08-28T15:21:45.525Z"
+    },
+    {
+      "id": "b3927204-4f84-43a9-a84a-e1437c1b6bc3",
+      "post_id": "4b18144c-0298-4358-9b3a-0c5bc538e900",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "created_at": "2026-08-28T16:21:45.525Z"
+    },
+    {
+      "id": "a368f755-b99c-4e90-9a42-f8b67bd9e398",
+      "post_id": "4b18144c-0298-4358-9b3a-0c5bc538e900",
+      "user_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "created_at": "2026-08-28T17:21:45.525Z"
+    },
+    {
+      "id": "1cdee504-17f9-45c3-a7f8-a947cc748e02",
+      "post_id": "51e5271b-7454-4316-be58-eda538eec40e",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "created_at": "2026-08-28T16:21:45.525Z"
+    },
+    {
+      "id": "59749056-a1ae-485f-9ff6-5ad47c7253e4",
+      "post_id": "51e5271b-7454-4316-be58-eda538eec40e",
+      "user_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "created_at": "2026-08-28T17:21:45.525Z"
+    },
+    {
+      "id": "7bd0afc9-3f8f-42cb-b5d0-2fa34157695c",
+      "post_id": "51e5271b-7454-4316-be58-eda538eec40e",
+      "user_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "created_at": "2026-08-28T17:21:45.525Z"
+    },
+    {
+      "id": "ad38cfbe-e9a4-4a19-887e-3286803c1692",
+      "post_id": "51e5271b-7454-4316-be58-eda538eec40e",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "created_at": "2026-08-28T18:21:45.525Z"
+    },
+    {
+      "id": "1fc9e218-c486-46f3-a5e4-dc40327a4ed1",
+      "post_id": "f3a71f18-6e25-48bd-a117-c4ac40af614d",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "created_at": "2026-08-28T17:21:45.525Z"
+    },
+    {
+      "id": "ffaedb6a-1a03-4370-a8d7-472a96962161",
+      "post_id": "f3a71f18-6e25-48bd-a117-c4ac40af614d",
+      "user_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "created_at": "2026-08-28T18:21:45.525Z"
+    },
+    {
+      "id": "afc08bca-12fa-40f1-9495-c91de3d7a895",
+      "post_id": "7f969bef-3da6-4418-94f0-ad29cac4f6a4",
+      "user_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "created_at": "2026-08-28T18:21:45.525Z"
+    },
+    {
+      "id": "806e4ac5-06d1-4e37-a877-75cc7088f8aa",
+      "post_id": "7f969bef-3da6-4418-94f0-ad29cac4f6a4",
+      "user_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "created_at": "2026-08-28T19:21:45.525Z"
+    },
+    {
+      "id": "551d881d-4630-409b-befa-1771889e4d8e",
+      "post_id": "ad8cc60e-985f-45fc-b045-837b20343b9d",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "created_at": "2026-08-28T19:21:45.525Z"
+    },
+    {
+      "id": "e6554640-18dc-4c5c-ab48-526a84eea3fe",
+      "post_id": "ad8cc60e-985f-45fc-b045-837b20343b9d",
+      "user_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "created_at": "2026-08-28T20:21:45.525Z"
+    },
+    {
+      "id": "bc17deba-45aa-4c42-b0c6-f53d052acc4b",
+      "post_id": "ad8cc60e-985f-45fc-b045-837b20343b9d",
+      "user_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "created_at": "2026-08-28T20:21:45.525Z"
+    },
+    {
+      "id": "fa48bb1c-0059-4c07-8a60-93bcb3845583",
+      "post_id": "ad8cc60e-985f-45fc-b045-837b20343b9d",
+      "user_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "created_at": "2026-08-28T21:21:45.525Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": "176de966-7f07-4105-a19c-4876e7635ed1",
+      "post_id": "c5f7219a-e5d8-46cd-9149-9507a8305a6f",
+      "author_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "content": "NH66 is incredible! Rode it in 2022 during monsoon — the rivers were overflowing onto the road, absolutely wild. Next time take the old NH17 through Ratnagiri, even more scenic.",
+      "created_at": "2026-08-28T10:21:45.525Z"
+    },
+    {
+      "id": "c6c7ab4f-6133-4a49-a596-4581204df5dd",
+      "post_id": "c5f7219a-e5d8-46cd-9149-9507a8305a6f",
+      "author_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "content": "Bhai count me in for the group ride! Have been wanting to do this route for ages. The Murud-Janjira fort is also worth visiting while you're near there.",
+      "created_at": "2026-08-28T11:21:45.525Z"
+    },
+    {
+      "id": "7db013b3-9861-4e0b-94ad-5b64a5b2816b",
+      "post_id": "c5f7219a-e5d8-46cd-9149-9507a8305a6f",
+      "author_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "content": "Jealous! I did NH66 earlier this year on the Duke — gear down for the ghats near Goa border. Amazing road though. Your Classic 350 must have sounded perfect on that coastal stretch.",
+      "created_at": "2026-08-28T12:21:45.525Z"
+    },
+    {
+      "id": "3905c6ef-8756-415d-9f6c-fe32a5d57337",
+      "post_id": "67825c2d-3dd4-43be-a1b4-e7f55db106b7",
+      "author_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "content": "This is so inspiring! I've been nervous about solo riding. What gear setup do you use for long solo trips?",
+      "created_at": "2026-08-28T11:21:45.525Z"
+    },
+    {
+      "id": "24aa8528-845f-4c76-a15e-2e0882442514",
+      "post_id": "67825c2d-3dd4-43be-a1b4-e7f55db106b7",
+      "author_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "content": "The B-M road is butter smooth now since they repaved it. Coorg in the monsoon is magical but July-August gets very heavy rainfall. Any particular homestay you'd recommend?",
+      "created_at": "2026-08-28T12:21:45.525Z"
+    },
+    {
+      "id": "2cea6bb8-4518-492e-b3c3-4c22d451543b",
+      "post_id": "16739b86-95b7-4fa3-b03f-44513cafe725",
+      "author_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "content": "Bhai stay safe! Those landslide areas can be really unpredictable. What time did you cross Rohtang? Heard the morning window is best before the tourist traffic builds up.",
+      "created_at": "2026-08-28T12:21:45.525Z"
+    },
+    {
+      "id": "342ec87b-e5d4-473e-ab62-5b067275202c",
+      "post_id": "16739b86-95b7-4fa3-b03f-44513cafe725",
+      "author_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "content": "Following your updates closely — planning Leh for next year. How is the fuel situation from Keylong onwards? Is the Patseo pump reliable?",
+      "created_at": "2026-08-28T13:21:45.525Z"
+    },
+    {
+      "id": "3d12a5bb-1c37-48f6-be3f-49c9024d5865",
+      "post_id": "9cb19edc-5e7c-453f-b3ce-2b3b1f05b8ba",
+      "author_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "content": "Hampi is on my list! The Vijayanagara empire ruins are breathtaking. Did you take the coracle (round boat) across the river to Virupapur Gadde? It's a different world on that side.",
+      "created_at": "2026-08-28T13:21:45.525Z"
+    },
+    {
+      "id": "1fcbb905-bb02-4d37-9096-7e76b782e883",
+      "post_id": "9cb19edc-5e7c-453f-b3ce-2b3b1f05b8ba",
+      "author_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "content": "Good budget tip! I'd also add — hire a bicycle in Hampi itself to explore the ruins without worrying about parking the bike. Roads between monuments are narrow.",
+      "created_at": "2026-08-28T14:21:45.525Z"
+    },
+    {
+      "id": "535fee11-58f1-4442-842a-e3cece911f4d",
+      "post_id": "843910bd-a484-4c5b-b773-fa666b2c73db",
+      "author_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "content": "The Khopoli dhaba belt is legendary! On the way back from Lonavala, the one with the green boards near the toll — best misal pav in Maharashtra. This post made me hungry.",
+      "created_at": "2026-08-28T14:21:45.525Z"
+    },
+    {
+      "id": "ac5880f7-bdd1-48b0-8553-bd5f6d7c67a3",
+      "post_id": "843910bd-a484-4c5b-b773-fa666b2c73db",
+      "author_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "content": "100% this. My favourite is the chai stop near Tumkur on NH48 heading towards Bangalore. The chai wala remembers all the regulars — that level of warmth you can't buy anywhere.",
+      "created_at": "2026-08-28T15:21:45.525Z"
+    },
+    {
+      "id": "b58df79c-1d57-4645-b698-63b60b7e33cc",
+      "post_id": "51e5271b-7454-4316-be58-eda538eec40e",
+      "author_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "content": "Vikram bhai sending this straight to family group chat. My Spiti dream is this year! The Sangla valley detour — worth it or skip for time?",
+      "created_at": "2026-08-28T16:21:45.525Z"
+    },
+    {
+      "id": "51126b26-3695-43a9-a4c1-6c8c965e6467",
+      "post_id": "51e5271b-7454-4316-be58-eda538eec40e",
+      "author_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "content": "Do NOT skip Sangla Valley. Chitkul village at the end of the road is the last inhabited village before the Indo-China border. Worth every km.",
+      "created_at": "2026-08-28T17:21:45.525Z"
+    },
+    {
+      "id": "5a9d4766-cdd6-40a6-b993-4c9b7a9d0215",
+      "post_id": "ad8cc60e-985f-45fc-b045-837b20343b9d",
+      "author_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "content": "Train with bikes is the right call — DLI-MMCT Rajdhani takes bikes. Book 2 months ahead, the auto wagon books up fast in July-September. I can guide the Manali-Leh section if you need.",
+      "created_at": "2026-08-28T19:21:45.525Z"
+    },
+    {
+      "id": "cc3e0579-8aa3-4f7b-af22-efee47f00807",
+      "post_id": "ad8cc60e-985f-45fc-b045-837b20343b9d",
+      "author_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "content": "I'm very interested! September timing is perfect — post monsoon, roads clear, less snow risk. What's the minimum experience you're looking for?",
+      "created_at": "2026-08-28T20:21:45.525Z"
+    },
+    {
+      "id": "41241ab7-6f02-47b7-ad8c-e26043166484",
+      "post_id": "ad8cc60e-985f-45fc-b045-837b20343b9d",
+      "author_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "content": "Interested! I have 3+ years. Can women join? (asking because some groups prefer male-only, I know it's odd but want to confirm)",
+      "created_at": "2026-08-28T21:21:45.525Z"
+    },
+    {
+      "id": "dcc24144-8a5c-469b-8e94-4386cb7d500c",
+      "post_id": "a26f8891-41ea-4bf8-b893-4bb9b5e27d25",
+      "author_id": "18cf3f15-4373-48bc-a750-2b18429ca389",
+      "content": "Agreed",
+      "created_at": "2026-08-30T10:22:31.382Z"
+    }
+  ],
+  "follows": [
+    {
+      "id": "ea65482c-8795-4fcf-b9a9-77d176081f48",
+      "follower_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "following_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "created_at": "2026-08-22T01:21:45.524Z"
+    },
+    {
+      "id": "a8294188-aca2-4fa5-b694-a0310988fe52",
+      "follower_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "following_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "created_at": "2026-08-22T02:21:45.524Z"
+    },
+    {
+      "id": "e31d8b5f-03d5-4509-8072-600cf4c3fe32",
+      "follower_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "following_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "created_at": "2026-08-22T03:21:45.524Z"
+    },
+    {
+      "id": "5dda173e-d151-4149-9768-e267bd063a7e",
+      "follower_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "following_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "created_at": "2026-08-22T21:21:45.524Z"
+    },
+    {
+      "id": "4e10bbef-00f6-467e-af1e-c5c5e73dd6f3",
+      "follower_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "following_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "created_at": "2026-08-22T22:21:45.524Z"
+    },
+    {
+      "id": "ae91c129-86bc-4a5b-856b-53b44a6bd8bf",
+      "follower_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "following_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "created_at": "2026-08-22T23:21:45.524Z"
+    },
+    {
+      "id": "32604c46-0ea2-499d-a420-9642ba1fb756",
+      "follower_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "following_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "created_at": "2026-08-23T17:21:45.524Z"
+    },
+    {
+      "id": "7264c83b-ccc2-4853-9de2-aec5042d1402",
+      "follower_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "following_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "created_at": "2026-08-23T18:21:45.524Z"
+    },
+    {
+      "id": "3046f9ec-aca2-4efc-bc04-cee5bee7659a",
+      "follower_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "following_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "created_at": "2026-08-23T19:21:45.524Z"
+    },
+    {
+      "id": "687dc2ba-b61c-4a6e-9377-917ed27415e1",
+      "follower_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "following_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "created_at": "2026-08-24T13:21:45.524Z"
+    },
+    {
+      "id": "717908be-c025-4150-9216-7b5270e0299e",
+      "follower_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "following_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "created_at": "2026-08-24T14:21:45.524Z"
+    },
+    {
+      "id": "5c603179-110f-440a-9264-b6bdcf1e0dba",
+      "follower_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "following_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "created_at": "2026-08-24T15:21:45.524Z"
+    },
+    {
+      "id": "2ccd59ce-4f24-42eb-bca2-97c72c41574c",
+      "follower_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "following_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "created_at": "2026-08-25T09:21:45.524Z"
+    },
+    {
+      "id": "4508a56b-8b85-4990-a15b-004df7733a8b",
+      "follower_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "following_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "created_at": "2026-08-25T10:21:45.524Z"
+    },
+    {
+      "id": "d7d3ff7a-b9d4-4477-a7aa-e1577444bf2c",
+      "follower_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "following_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "created_at": "2026-08-25T11:21:45.524Z"
+    },
+    {
+      "id": "4adfaa58-9537-4f3d-8c84-66be584055b0",
+      "follower_id": "18cf3f15-4373-48bc-a750-2b18429ca389",
+      "following_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "created_at": "2026-08-30T10:48:20.731Z"
+    },
+    {
+      "id": "0d35ab21-0391-4ba6-8ce9-a1d227a5f0a7",
+      "follower_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "following_id": "18cf3f15-4373-48bc-a750-2b18429ca389",
+      "created_at": "2026-09-04T15:49:14.845Z"
+    }
+  ],
+  "rides": [
+    {
+      "id": "c96a5f89-4a34-40da-a8ef-62860686fc07",
+      "organizer_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "title": "Manali to Leh Expedition",
+      "description": "The ultimate Himalayan adventure! We ride from Manali through Rohtang Pass, Baralacha La, Lachulung La, and Tanglang La all the way to Leh. Covering some of the highest motorable roads in the world. Experience required — minimum 5 years riding experience and adventure touring setup recommended.",
+      "start_location": "Manali, Himachal Pradesh",
+      "destination": "Leh, Ladakh",
+      "ride_date": "2026-09-14T09:21:45.526Z",
+      "max_participants": 10,
+      "status": "upcoming",
+      "created_at": "2026-08-27T09:21:45.526Z"
+    },
+    {
+      "id": "fe1232ea-2c5b-42dc-aaac-58e7c7723386",
+      "organizer_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "title": "Western Ghats Weekend Ride",
+      "description": "A beautiful weekend escape through the misty Western Ghats. Pune to Mahabaleshwar via Panchgani. Expect stunning valley views, strawberry farms, and the famous Mapro Garden stop. All experience levels welcome. We'll ride in convoy with safety marshals.",
+      "start_location": "Pune, Maharashtra",
+      "destination": "Mahabaleshwar, Maharashtra",
+      "ride_date": "2026-09-06T09:21:45.526Z",
+      "max_participants": 15,
+      "status": "upcoming",
+      "created_at": "2026-08-27T21:21:45.526Z"
+    },
+    {
+      "id": "eaf318e5-5310-4428-8712-491cd3d6e0b9",
+      "organizer_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "title": "Spiti Valley Adventure",
+      "description": "Experience one of the most remote and breathtaking valleys in India. Starting from Shimla, we traverse through Kinnaur, Sangla Valley, and into the cold desert landscape of Spiti. 12 days of pure riding bliss. Altitude goes up to 15,000 ft. AMS awareness essential.",
+      "start_location": "Shimla, Himachal Pradesh",
+      "destination": "Kaza, Spiti Valley",
+      "ride_date": "2026-09-29T09:21:45.526Z",
+      "max_participants": 8,
+      "status": "upcoming",
+      "created_at": "2026-08-28T09:21:45.526Z"
+    },
+    {
+      "id": "62714a25-fb58-49a9-abbc-4b3e69ea888e",
+      "organizer_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "title": "Coorg Coffee Trail",
+      "description": "A perfect weekend ride for coffee lovers and nature enthusiasts! From Bangalore through Mysore to the lush coffee plantations of Coorg. We'll visit Namdroling Monastery (Golden Temple), Abbey Falls, and Dubare Elephant Camp. All experience levels welcome.",
+      "start_location": "Bangalore, Karnataka",
+      "destination": "Coorg, Karnataka",
+      "ride_date": "2026-09-04T09:21:45.526Z",
+      "max_participants": 12,
+      "status": "upcoming",
+      "created_at": "2026-08-28T21:21:45.526Z"
+    },
+    {
+      "id": "b3b05bc7-ea53-47cd-8b26-a0e173fea623",
+      "organizer_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "title": "Antara Hills",
+      "description": "Hill Ride, better to come with adventure bikes because the roads will not be good.",
+      "start_location": "Hitech City",
+      "destination": "Antara Hills",
+      "ride_date": "2026-09-05",
+      "max_participants": 10,
+      "status": "upcoming",
+      "created_at": "2026-09-04T12:37:15.600Z"
+    }
+  ],
+  "ride_participants": [
+    {
+      "id": "a4d0dbf2-dd14-495d-b4bd-4a437e25ed18",
+      "ride_id": "c96a5f89-4a34-40da-a8ef-62860686fc07",
+      "user_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "joined_at": "2026-08-27T09:21:45.526Z"
+    },
+    {
+      "id": "4e64fc8f-b86c-475b-b85a-254ef076e3f1",
+      "ride_id": "c96a5f89-4a34-40da-a8ef-62860686fc07",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "joined_at": "2026-08-28T07:21:45.526Z"
+    },
+    {
+      "id": "e99cca7d-e06d-47e1-9336-82eadff133db",
+      "ride_id": "c96a5f89-4a34-40da-a8ef-62860686fc07",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "joined_at": "2026-08-29T03:21:45.526Z"
+    },
+    {
+      "id": "9a451e94-6601-447c-92e5-a11696c37e01",
+      "ride_id": "fe1232ea-2c5b-42dc-aaac-58e7c7723386",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "joined_at": "2026-08-27T21:21:45.526Z"
+    },
+    {
+      "id": "55856b85-2515-4117-96e9-385f760a6e37",
+      "ride_id": "fe1232ea-2c5b-42dc-aaac-58e7c7723386",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "joined_at": "2026-08-28T17:21:45.526Z"
+    },
+    {
+      "id": "18a63055-13ff-44d8-9f72-bb8c78a72ce1",
+      "ride_id": "fe1232ea-2c5b-42dc-aaac-58e7c7723386",
+      "user_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "joined_at": "2026-08-28T22:21:45.526Z"
+    },
+    {
+      "id": "bbc1a5cb-08e5-4a21-ac6b-55b9e47bec8f",
+      "ride_id": "eaf318e5-5310-4428-8712-491cd3d6e0b9",
+      "user_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "joined_at": "2026-08-28T09:21:45.526Z"
+    },
+    {
+      "id": "3a005261-1b23-4db2-a36a-0a7a9fc9934f",
+      "ride_id": "eaf318e5-5310-4428-8712-491cd3d6e0b9",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "joined_at": "2026-08-29T08:21:45.526Z"
+    },
+    {
+      "id": "97d49cd3-89ce-4263-8e3f-3cfb9eab7db4",
+      "ride_id": "62714a25-fb58-49a9-abbc-4b3e69ea888e",
+      "user_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "joined_at": "2026-08-28T21:21:45.526Z"
+    },
+    {
+      "id": "52f80421-f5b5-45e2-b5f0-20ee5bba5150",
+      "ride_id": "62714a25-fb58-49a9-abbc-4b3e69ea888e",
+      "user_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "joined_at": "2026-08-29T13:21:45.526Z"
+    },
+    {
+      "id": "6989d7c9-8e02-4236-a029-1756a2e80766",
+      "ride_id": "62714a25-fb58-49a9-abbc-4b3e69ea888e",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "joined_at": "2026-08-29T18:21:45.526Z"
+    },
+    {
+      "id": "8037af0f-5d88-4fc9-9f3b-17b4215cda9b",
+      "ride_id": "b3b05bc7-ea53-47cd-8b26-a0e173fea623",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "joined_at": "2026-09-04T12:37:15.600Z"
+    }
+  ],
+  "communities": [
+    {
+      "id": "2c5d124f-eb6b-47f9-8f61-e5aad17bb10d",
+      "creator_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "name": "Royal Enfield India",
+      "description": "The ultimate community for Royal Enfield enthusiasts across India. Share your rides, tips, modifications, and connect with fellow Enfielders. From Bullet to Himalayan, all RE riders welcome here!",
+      "cover_image_url": null,
+      "category": "Brand Club",
+      "created_at": "2026-08-17T21:21:45.526Z"
+    },
+    {
+      "id": "0f0f5db5-6781-445d-a331-f23cdd59bcf6",
+      "creator_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "name": "Ladakh Riders",
+      "description": "For those who've felt the call of the mountains. A community dedicated to Ladakh touring — route planning, permits, acclimatisation tips, gear advice, and connecting with riders heading to the land of high passes.",
+      "cover_image_url": null,
+      "category": "Adventure",
+      "created_at": "2026-08-18T17:21:45.526Z"
+    },
+    {
+      "id": "a0fe64ae-eb06-4aae-80d6-4af830eb8d7c",
+      "creator_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "name": "Maharashtra Bikers",
+      "description": "All bikers from Maharashtra! Whether you're riding the Konkan coast, the Western Ghats, or exploring Vidarbha and Marathwada, this is your community. Weekly rides, monthly meetups, and the best dhaba recommendations in the state.",
+      "cover_image_url": null,
+      "category": "Regional",
+      "created_at": "2026-08-19T13:21:45.526Z"
+    }
+  ],
+  "community_members": [
+    {
+      "id": "db0f06f8-01b9-462e-801d-6bf28003f5d4",
+      "community_id": "2c5d124f-eb6b-47f9-8f61-e5aad17bb10d",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "joined_at": "2026-08-17T21:21:45.527Z"
+    },
+    {
+      "id": "b7eab13b-cf32-42e6-be61-f2fb340272ad",
+      "community_id": "2c5d124f-eb6b-47f9-8f61-e5aad17bb10d",
+      "user_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "joined_at": "2026-08-18T07:21:45.527Z"
+    },
+    {
+      "id": "dba64c75-b803-49d3-a7b0-bc76f51ed0be",
+      "community_id": "2c5d124f-eb6b-47f9-8f61-e5aad17bb10d",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "joined_at": "2026-08-18T12:21:45.527Z"
+    },
+    {
+      "id": "a4510c44-8c12-416a-8e67-9926a6473e9c",
+      "community_id": "2c5d124f-eb6b-47f9-8f61-e5aad17bb10d",
+      "user_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "joined_at": "2026-08-18T17:21:45.527Z"
+    },
+    {
+      "id": "731a3be9-b118-4178-b250-1e40dfd7f37a",
+      "community_id": "0f0f5db5-6781-445d-a331-f23cdd59bcf6",
+      "user_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "joined_at": "2026-08-18T17:21:45.527Z"
+    },
+    {
+      "id": "7aef9cfe-9e7c-453a-813d-faa5aa60dc51",
+      "community_id": "0f0f5db5-6781-445d-a331-f23cdd59bcf6",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "joined_at": "2026-08-19T03:21:45.527Z"
+    },
+    {
+      "id": "176c0187-b0e4-41ef-a8cf-2c7464d1abeb",
+      "community_id": "0f0f5db5-6781-445d-a331-f23cdd59bcf6",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "joined_at": "2026-08-19T08:21:45.527Z"
+    },
+    {
+      "id": "cc65af3e-8714-43f5-adad-91e0224af0c7",
+      "community_id": "0f0f5db5-6781-445d-a331-f23cdd59bcf6",
+      "user_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "joined_at": "2026-08-19T13:21:45.527Z"
+    },
+    {
+      "id": "7bf89e13-a3eb-40c9-8185-0fa29f072923",
+      "community_id": "a0fe64ae-eb06-4aae-80d6-4af830eb8d7c",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "joined_at": "2026-08-19T13:21:45.527Z"
+    },
+    {
+      "id": "ac48f9d4-f831-4c11-8c29-92cd37d21fcb",
+      "community_id": "a0fe64ae-eb06-4aae-80d6-4af830eb8d7c",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "joined_at": "2026-08-19T18:21:45.527Z"
+    },
+    {
+      "id": "ba9c3f0f-cfc3-45de-bee4-d7ce791669af",
+      "community_id": "a0fe64ae-eb06-4aae-80d6-4af830eb8d7c",
+      "user_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "joined_at": "2026-08-19T23:21:45.527Z"
+    },
+    {
+      "id": "056b5788-417f-495f-a9e8-e2fa60e7b8e6",
+      "community_id": "a0fe64ae-eb06-4aae-80d6-4af830eb8d7c",
+      "user_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "joined_at": "2026-08-20T04:21:45.527Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "8c5ed62e-6d31-45ff-9fb8-0e4a2b15b995",
+      "sender_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "recipient_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "content": "Bhai, are you joining the Manali-Leh ride? Need to confirm participant count for the permit.",
+      "is_read": true,
+      "created_at": "2026-08-28T05:21:45.527Z"
+    },
+    {
+      "id": "0952194e-1c92-40d1-9ddf-28275fccd67b",
+      "sender_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "recipient_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "content": "Yes! 100% in. Classic 350 or should I borrow a Himalayan for this one?",
+      "is_read": true,
+      "created_at": "2026-08-28T06:21:45.527Z"
+    },
+    {
+      "id": "3af7fb53-7798-4546-8683-fa17ce1c63e4",
+      "sender_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "recipient_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "content": "For Leh? Himalayan bhai. Classic will struggle above 12,000 ft. Borrow it if you can.",
+      "is_read": true,
+      "created_at": "2026-08-28T07:21:45.527Z"
+    },
+    {
+      "id": "3d3f12d7-ece1-45cd-9c28-6103bff1e7c6",
+      "sender_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "recipient_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "content": "Sorted! Will get my RE dealer friend's Himalayan. See you in Manali!",
+      "is_read": false,
+      "created_at": "2026-08-28T08:21:45.527Z"
+    },
+    {
+      "id": "b999e1c0-57ff-4b22-915d-e3bd29c22af2",
+      "sender_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "recipient_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "content": "Hey! Saw your Hampi post — loved it! I'm planning a solo ride to Chikmagalur next month, want to join?",
+      "is_read": true,
+      "created_at": "2026-08-29T03:21:45.527Z"
+    },
+    {
+      "id": "8440e664-db53-4d69-962b-e80e42fe5308",
+      "sender_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "recipient_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "content": "Definitely! Chikmagalur coffee estates + hills = perfect! Let's plan it. What dates are you thinking?",
+      "is_read": true,
+      "created_at": "2026-08-29T05:21:45.527Z"
+    },
+    {
+      "id": "6704e96b-6744-4f3a-9714-ad5c46694fa4",
+      "sender_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "recipient_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "content": "I'm thinking last weekend of next month — Friday evening start, back Sunday night. You okay with ~600 km round trip?",
+      "is_read": true,
+      "created_at": "2026-08-29T06:21:45.527Z"
+    },
+    {
+      "id": "78e95fb5-d47b-4053-9f76-6e746b7998e8",
+      "sender_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "recipient_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "content": "Perfect! CB300R can do that easily. Let's lock dates and I'll book accommodation in advance.",
+      "is_read": false,
+      "created_at": "2026-08-29T07:21:45.527Z"
+    },
+    {
+      "id": "e0c32f67-fd9e-4d2d-a373-532bc1733a2c",
+      "sender_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "recipient_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "content": "Rajesh! Are you coming to the Western Ghats ride? Need one more experienced rider to be a marshal.",
+      "is_read": true,
+      "created_at": "2026-08-28T19:21:45.527Z"
+    },
+    {
+      "id": "468cd5b6-48ef-46ca-87ed-8dd551f8057c",
+      "sender_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "recipient_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "content": "Arjun bhai I'm in! Mumbai to Pune the night before and we start early. Happy to be a marshal.",
+      "is_read": true,
+      "created_at": "2026-08-28T20:21:45.527Z"
+    },
+    {
+      "id": "df512d99-fdbd-498b-b513-09c44474d26e",
+      "sender_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "recipient_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "content": "Perfect. Meet point at Chandni Chowk, Pune at 6 AM. I'll share the WhatsApp group link.",
+      "is_read": true,
+      "created_at": "2026-08-28T21:21:45.527Z"
+    },
+    {
+      "id": "2d7129fd-c913-4522-8037-8a1dc8272d67",
+      "sender_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "recipient_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "content": "Vikram bhai, saw your Spiti post. Incredible! I'm organising a Ladakh trip for September — would you join as guide?",
+      "is_read": true,
+      "created_at": "2026-08-29T13:21:45.527Z"
+    },
+    {
+      "id": "7fca0fd0-e017-49ee-ba63-b8aee64779d1",
+      "sender_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "recipient_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "content": "September is tough for me — I'll be in Spiti till mid-Sept. But I can help plan the route and give you all my contacts in Leh.",
+      "is_read": true,
+      "created_at": "2026-08-29T15:21:45.527Z"
+    },
+    {
+      "id": "9f0d2088-dd1c-489b-96e4-c4ca509ca7e6",
+      "sender_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "recipient_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "content": "That would be amazing! Can I call you this weekend? Would love your Leh contacts especially near Pangong.",
+      "is_read": false,
+      "created_at": "2026-08-29T17:21:45.527Z"
+    },
+    {
+      "id": "72144204-cfba-4f04-be2d-8f37080382bb",
+      "sender_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "recipient_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "content": "Hi",
+      "is_read": true,
+      "created_at": "2026-09-04T12:35:30.872Z"
+    },
+    {
+      "id": "02e23110-7e39-407b-93ea-4511afcae202",
+      "sender_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "recipient_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "content": "Hello",
+      "is_read": true,
+      "created_at": "2026-09-04T15:50:21.188Z"
+    },
+    {
+      "id": "dd4a76da-8d18-4a48-aa75-39ddabf7f5f6",
+      "sender_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "recipient_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "content": "Yo, whats up ?",
+      "is_read": true,
+      "created_at": "2026-09-04T15:50:30.858Z"
+    },
+    {
+      "id": "50379943-c566-4154-8c2d-89f04dcc0f07",
+      "sender_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "recipient_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "content": "Heloooooooooo, what are u up to  ?",
+      "is_read": true,
+      "created_at": "2026-09-04T15:50:51.390Z"
+    },
+    {
+      "id": "4a83b49b-6f44-47cd-a545-1792c528457b",
+      "sender_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "recipient_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "content": "hey",
+      "is_read": true,
+      "created_at": "2026-09-04T15:51:02.968Z"
+    },
+    {
+      "id": "809b4c93-435a-42a3-8bfb-b38854dd3215",
+      "sender_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "recipient_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "content": "Hello",
+      "is_read": true,
+      "created_at": "2026-09-04T20:33:17.262Z"
+    },
+    {
+      "id": "89d0f286-c94a-4a1c-b413-3992acb163e5",
+      "sender_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "recipient_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "content": "yo",
+      "is_read": true,
+      "created_at": "2026-09-04T21:02:39.748Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "cb70e232-befe-4d3f-8ad3-07d3ee753e9f",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "actor_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "type": "like",
+      "content": "Priya Sharma liked your post",
+      "link": "/posts/c5f7219a-e5d8-46cd-9149-9507a8305a6f",
+      "is_read": true,
+      "created_at": "2026-08-28T10:21:45.528Z"
+    },
+    {
+      "id": "9b35f00b-1a09-4d8f-aafe-09bd9d97c861",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "actor_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "type": "like",
+      "content": "Vikram Singh liked your post",
+      "link": "/posts/c5f7219a-e5d8-46cd-9149-9507a8305a6f",
+      "is_read": true,
+      "created_at": "2026-08-28T11:21:45.528Z"
+    },
+    {
+      "id": "db5e9ad5-3ffb-4732-984c-4412033075d8",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "actor_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "type": "comment",
+      "content": "Vikram Singh commented on your post",
+      "link": "/posts/c5f7219a-e5d8-46cd-9149-9507a8305a6f",
+      "is_read": true,
+      "created_at": "2026-08-28T10:21:45.528Z"
+    },
+    {
+      "id": "08ae3bec-ac94-494d-847e-9e9ef1686c7d",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "actor_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "type": "comment",
+      "content": "Arjun Mehta commented on your post",
+      "link": "/posts/c5f7219a-e5d8-46cd-9149-9507a8305a6f",
+      "is_read": true,
+      "created_at": "2026-08-28T11:21:45.528Z"
+    },
+    {
+      "id": "bfb2e8e2-7284-4b55-86c5-336f23c8aa6d",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "actor_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "type": "follow",
+      "content": "Priya Sharma started following you",
+      "link": "/profile/priya_throttle",
+      "is_read": true,
+      "created_at": "2026-08-22T21:21:45.528Z"
+    },
+    {
+      "id": "63bce1ad-ddb2-4c12-bdcd-61ef5c9f07ed",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "actor_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "type": "follow",
+      "content": "Vikram Singh started following you",
+      "link": "/profile/vikram_wolf",
+      "is_read": true,
+      "created_at": "2026-08-23T17:21:45.528Z"
+    },
+    {
+      "id": "dcea3002-32d0-4ee7-994a-856e3a8cd41b",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "actor_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "type": "follow",
+      "content": "Arjun Mehta started following you",
+      "link": "/profile/arjun_moto",
+      "is_read": true,
+      "created_at": "2026-08-25T09:21:45.528Z"
+    },
+    {
+      "id": "61d11dd3-2b2a-4f59-b639-6a440c882df0",
+      "user_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "actor_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "type": "like",
+      "content": "Rajesh Kumar liked your post",
+      "link": "/posts/67825c2d-3dd4-43be-a1b4-e7f55db106b7",
+      "is_read": false,
+      "created_at": "2026-08-28T11:21:45.528Z"
+    },
+    {
+      "id": "f62a5576-09a1-4995-9e41-730b4f23bfb2",
+      "user_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "actor_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "type": "like",
+      "content": "Ananya Reddy liked your post",
+      "link": "/posts/67825c2d-3dd4-43be-a1b4-e7f55db106b7",
+      "is_read": false,
+      "created_at": "2026-08-28T13:21:45.528Z"
+    },
+    {
+      "id": "8a058ede-1102-49a4-abb8-b3e32b293098",
+      "user_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "actor_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "type": "comment",
+      "content": "Ananya Reddy commented on your post",
+      "link": "/posts/67825c2d-3dd4-43be-a1b4-e7f55db106b7",
+      "is_read": false,
+      "created_at": "2026-08-28T11:21:45.528Z"
+    },
+    {
+      "id": "8cfbd7bd-d70e-4d37-b42d-ffaaef3367a0",
+      "user_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "actor_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "type": "follow",
+      "content": "Ananya Reddy started following you",
+      "link": "/profile/ananya_rides",
+      "is_read": true,
+      "created_at": "2026-08-24T13:21:45.528Z"
+    },
+    {
+      "id": "15cdf22b-e6e7-435c-8042-aecf2a3946fc",
+      "user_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "actor_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "type": "follow",
+      "content": "Arjun Mehta started following you",
+      "link": "/profile/arjun_moto",
+      "is_read": true,
+      "created_at": "2026-08-25T11:21:45.528Z"
+    },
+    {
+      "id": "c6849720-4695-462f-86db-c34f8330254f",
+      "user_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "actor_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "type": "ride_invite",
+      "content": "Ananya Reddy joined your ride: Coorg Coffee Trail",
+      "link": "/rides/62714a25-fb58-49a9-abbc-4b3e69ea888e",
+      "is_read": false,
+      "created_at": "2026-08-29T13:21:45.528Z"
+    },
+    {
+      "id": "aead9b98-932d-439e-b4a9-0b424ad1a380",
+      "user_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "actor_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "type": "like",
+      "content": "Rajesh Kumar liked your post",
+      "link": "/posts/16739b86-95b7-4fa3-b03f-44513cafe725",
+      "is_read": false,
+      "created_at": "2026-08-28T12:21:45.528Z"
+    },
+    {
+      "id": "96928542-853d-496f-9e9b-4dfcb340cdfd",
+      "user_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "actor_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "type": "like",
+      "content": "Priya Sharma liked your post",
+      "link": "/posts/51e5271b-7454-4316-be58-eda538eec40e",
+      "is_read": false,
+      "created_at": "2026-08-28T17:21:45.528Z"
+    },
+    {
+      "id": "234d2dad-155b-421f-9ff9-7901c0961712",
+      "user_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "actor_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "type": "comment",
+      "content": "Rajesh Kumar commented on your post",
+      "link": "/posts/16739b86-95b7-4fa3-b03f-44513cafe725",
+      "is_read": false,
+      "created_at": "2026-08-28T12:21:45.528Z"
+    },
+    {
+      "id": "5b66288b-c778-446f-b239-0ad08a5d9643",
+      "user_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "actor_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "type": "ride_invite",
+      "content": "Rajesh Kumar joined your ride: Manali to Leh Expedition",
+      "link": "/rides/c96a5f89-4a34-40da-a8ef-62860686fc07",
+      "is_read": true,
+      "created_at": "2026-08-28T07:21:45.528Z"
+    },
+    {
+      "id": "a9b760dd-10db-4257-90f9-4730cf437ca9",
+      "user_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "actor_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "type": "ride_invite",
+      "content": "Arjun Mehta joined your ride: Manali to Leh Expedition",
+      "link": "/rides/c96a5f89-4a34-40da-a8ef-62860686fc07",
+      "is_read": false,
+      "created_at": "2026-08-29T03:21:45.528Z"
+    },
+    {
+      "id": "9469c2e2-f0b0-48cd-bdd6-7ba7ed83cdd3",
+      "user_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "actor_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "type": "follow",
+      "content": "Priya Sharma started following you",
+      "link": "/profile/priya_throttle",
+      "is_read": true,
+      "created_at": "2026-08-22T23:21:45.528Z"
+    },
+    {
+      "id": "4448a4ef-167c-48ec-9bc9-be2dcadfe007",
+      "user_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "actor_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "type": "like",
+      "content": "Priya Sharma liked your post",
+      "link": "/posts/9cb19edc-5e7c-453f-b3ce-2b3b1f05b8ba",
+      "is_read": false,
+      "created_at": "2026-08-28T13:21:45.528Z"
+    },
+    {
+      "id": "fec13734-05e0-40e6-bdb4-e3ee4c4a8335",
+      "user_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "actor_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "type": "like",
+      "content": "Vikram Singh liked your post",
+      "link": "/posts/9cb19edc-5e7c-453f-b3ce-2b3b1f05b8ba",
+      "is_read": false,
+      "created_at": "2026-08-28T14:21:45.528Z"
+    },
+    {
+      "id": "143a5217-1b44-4c4e-bcb5-90348642ae87",
+      "user_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "actor_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "type": "comment",
+      "content": "Priya Sharma commented on your post",
+      "link": "/posts/9cb19edc-5e7c-453f-b3ce-2b3b1f05b8ba",
+      "is_read": false,
+      "created_at": "2026-08-28T13:21:45.528Z"
+    },
+    {
+      "id": "359d082a-0087-4c42-9c08-12a21d7c6c65",
+      "user_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "actor_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "type": "comment",
+      "content": "Vikram Singh commented on your post",
+      "link": "/posts/9cb19edc-5e7c-453f-b3ce-2b3b1f05b8ba",
+      "is_read": true,
+      "created_at": "2026-08-28T14:21:45.528Z"
+    },
+    {
+      "id": "45a00bb0-97d1-4a59-984c-56fdf424c73f",
+      "user_id": "974e8420-74d7-4ca5-ac46-9666b991bc24",
+      "actor_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "type": "follow",
+      "content": "Priya Sharma started following you",
+      "link": "/profile/priya_throttle",
+      "is_read": true,
+      "created_at": "2026-08-22T22:21:45.528Z"
+    },
+    {
+      "id": "f3cd8da7-b8d5-4d3f-89fd-903a681332ab",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "actor_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "type": "like",
+      "content": "Rajesh Kumar liked your post",
+      "link": "/posts/843910bd-a484-4c5b-b773-fa666b2c73db",
+      "is_read": false,
+      "created_at": "2026-08-28T14:21:45.528Z"
+    },
+    {
+      "id": "7b32116a-ee85-454a-afe5-1159b395b779",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "actor_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "type": "like",
+      "content": "Vikram Singh liked your post",
+      "link": "/posts/843910bd-a484-4c5b-b773-fa666b2c73db",
+      "is_read": false,
+      "created_at": "2026-08-28T15:21:45.528Z"
+    },
+    {
+      "id": "6b3d13d1-77d0-4208-8ae2-b62f87fecf84",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "actor_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "type": "comment",
+      "content": "Rajesh Kumar commented on your post",
+      "link": "/posts/843910bd-a484-4c5b-b773-fa666b2c73db",
+      "is_read": false,
+      "created_at": "2026-08-28T14:21:45.528Z"
+    },
+    {
+      "id": "d6d57694-8b9b-4a97-8664-20e857939693",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "actor_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "type": "comment",
+      "content": "Vikram Singh commented on your post: Ladakh Expedition",
+      "link": "/posts/ad8cc60e-985f-45fc-b045-837b20343b9d",
+      "is_read": true,
+      "created_at": "2026-08-28T19:21:45.528Z"
+    },
+    {
+      "id": "71e59ecd-1abc-4d11-9c33-474017eb0eff",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "actor_id": "6d1c604d-53ae-489e-ab0d-72bebf405697",
+      "type": "ride_invite",
+      "content": "Priya Sharma joined your ride: Western Ghats Weekend Ride",
+      "link": "/rides/fe1232ea-2c5b-42dc-aaac-58e7c7723386",
+      "is_read": true,
+      "created_at": "2026-08-28T22:21:45.528Z"
+    },
+    {
+      "id": "eb811c28-014d-4ff8-8c90-b6ad71c688c7",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "actor_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "type": "follow",
+      "content": "Rajesh Kumar started following you",
+      "link": "/profile/rajesh_rider",
+      "is_read": true,
+      "created_at": "2026-08-22T03:21:45.528Z"
+    },
+    {
+      "id": "58d341c5-46ff-481c-82be-4553b6757836",
+      "user_id": "ffaa074a-1e2f-46db-90a1-55fd53754ef2",
+      "actor_id": "18cf3f15-4373-48bc-a750-2b18429ca389",
+      "type": "follow",
+      "content": "Vihaan started following you",
+      "link": "/users/sher_locked",
+      "is_read": false,
+      "created_at": "2026-08-30T10:48:20.731Z"
+    },
+    {
+      "id": "47bc1a5a-b169-4b27-a326-fde397a44c6f",
+      "user_id": "18cf3f15-4373-48bc-a750-2b18429ca389",
+      "actor_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "type": "follow",
+      "content": "Rajesh Kumar started following you",
+      "link": "/users/rajesh_rider",
+      "is_read": false,
+      "created_at": "2026-09-04T15:49:14.845Z"
+    },
+    {
+      "id": "8a521730-b813-49ac-aaa7-0bc13824dd8f",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "actor_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "type": "message",
+      "content": "sent you a message",
+      "link": "/messages/rajesh_rider",
+      "is_read": true,
+      "created_at": "2026-09-04T15:50:21.188Z"
+    },
+    {
+      "id": "29c5cde8-589a-4727-81d7-b3402058c4af",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "actor_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "type": "ride_request",
+      "content": "wants to join your ride: Antara Hills",
+      "link": "/rides/b3b05bc7-ea53-47cd-8b26-a0e173fea623",
+      "is_read": true,
+      "created_at": "2026-09-04T15:54:22.074Z"
+    },
+    {
+      "id": "9af94a22-73c7-432f-aaed-3300f84d7d4e",
+      "user_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "actor_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "type": "message",
+      "content": "sent you a message",
+      "link": "/messages/rajesh_rider",
+      "is_read": false,
+      "created_at": "2026-09-04T20:33:17.263Z"
+    },
+    {
+      "id": "4790d6a8-8d6d-4c73-8b0f-1aaea6fd8508",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "actor_id": "f15957eb-c18f-4224-99bf-104670115962",
+      "type": "message",
+      "content": "sent you a message",
+      "link": "/messages/arjun_moto",
+      "is_read": true,
+      "created_at": "2026-09-04T21:02:39.748Z"
+    }
+  ],
+  "ride_join_requests": [
+    {
+      "id": "00dc8b8b-e6ff-4871-b7b9-b6daca6b7798",
+      "ride_id": "b3b05bc7-ea53-47cd-8b26-a0e173fea623",
+      "user_id": "2adbad8d-bb02-4837-ac7b-32ac78e9ade4",
+      "status": "pending",
+      "created_at": "2026-09-04T15:54:22.074Z"
+    }
+  ]
+}
