@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form'
 import { useNavigate, Link } from 'react-router-dom'
 import {
   ArrowLeft, Loader2, CheckCircle2, Navigation, Search,
-  UserPlus, X, Share2, MessageSquare
+  UserPlus, Share2, MessageSquare
 } from 'lucide-react'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { createRide } from '../api/rides'

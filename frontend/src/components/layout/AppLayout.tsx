@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Outlet, NavLink, useNavigate, useLocation } from 'react-router-dom'
+import { Outlet, NavLink, useLocation } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import {
   Home, Compass, Map, Users, MessageCircle, Bell, User,
@@ -51,7 +51,6 @@ function SidebarLink({ item, isDark }: { item: NavItem; isDark: boolean }) {
 export default function AppLayout() {
   const { user, logout } = useAuth()
   const { isDark, toggle } = useTheme()
-  const navigate = useNavigate()
   const location = useLocation()
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
@@ -262,9 +261,9 @@ export default function AppLayout() {
           >
             <div className="relative">
               {item.icon}
-              {'badge' in item && item.badge > 0 && (
+              {'badge' in item && (item.badge ?? 0) > 0 && (
                 <span className="absolute -top-1 -right-1 min-w-[14px] h-3.5 px-0.5 bg-accent rounded-full text-[9px] font-bold text-white flex items-center justify-center">
-                  {item.badge > 9 ? '9+' : item.badge}
+                  {(item.badge ?? 0) > 9 ? '9+' : item.badge}
                 </span>
               )}
             </div>
